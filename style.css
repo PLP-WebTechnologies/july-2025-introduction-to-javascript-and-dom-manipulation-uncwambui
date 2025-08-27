@@ -1,0 +1,49 @@
+/* General page styling */
+/* Default theme */
+body.light-theme {
+  background-color: white;
+  color: black;
+}
+
+/* Dark theme */
+body.dark-theme {
+  background-color: #222;
+  color: white;
+}
+
+/* Blue theme */
+body.blue-theme {
+  background-color: #0d6efd;
+  color: white;
+}
+
+/* Green theme */
+body.green-theme {
+  background-color: #198754;
+  color: white;
+}
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+/* Dark theme styling - will be toggled with JS */
+.dark-theme {
+  background-color: #5a3333;
+  color: white;
+}
+
+/* Style for all buttons */
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+
+ul {
+  list-style-type: none; /* Remove dots */
+  padding: 0; 
+}
